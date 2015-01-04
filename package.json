@@ -1,6 +1,6 @@
 {
   "name": "icanhazip",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get external IP from icanhazip.com; uses Bluebird promise",
   "main": "index.js",
   "keywords": [
@@ -8,6 +8,10 @@
   ],
   "dependencies": {
     "bluebird": ""
+  },
+  "repository": {
+   "type": "git",
+   "url": "https://github.com/runvnc/icanhazip"
   },
   "scripts": {
     "test": "cd test && node test.js"
