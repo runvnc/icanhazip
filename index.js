@@ -10,7 +10,7 @@ IPv4 = function(cb) {
       address = data.toString();
     });
     res.on('end', function() {
-      return cb(null, address);
+      return cb(null, address.replace(/\n/g, ''));
     });
   });
   request.on('error', function(e) {
