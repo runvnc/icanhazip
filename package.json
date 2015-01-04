@@ -1,0 +1,14 @@
+{
+  "name": "icanhazip",
+  "version": "1.0.0",
+  "description": "Get external IP from icanhazip.com",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": ""
+  },
+  "scripts": {
+    "test": "cd test && node test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
