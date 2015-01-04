@@ -1,8 +1,11 @@
 {
   "name": "icanhazip",
   "version": "1.0.0",
-  "description": "Get external IP from icanhazip.com",
+  "description": "Get external IP from icanhazip.com; uses Bluebird promise",
   "main": "index.js",
+  "keywords": [
+    "external", "ip", "address", "icanhazip", "promise"
+  ],
   "dependencies": {
     "bluebird": ""
   },
