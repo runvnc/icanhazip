@@ -1,7 +1,7 @@
 Uses `icanhazip.com` to get your external IP address.
 
 ```javascript
-var icanhazip = require('../index.js');
+var icanhazip = require('icanhazip');
 
 icanhazip.IPv4().then(function(myIP) {
   console.log(myIP);
